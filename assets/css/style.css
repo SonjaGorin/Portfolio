@@ -12,7 +12,6 @@ body {
 
 header {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
     padding: 1% 2%;
@@ -33,17 +32,13 @@ header img {
     padding: 10px 0 0 0;
 }
 
-nav ul {
+nav {
     display: flex;
     justify-content: space-between;
-    min-width: 300px;
 }
 
-nav ul li {
+nav a {
     margin-left: 20px;
-}
-
-nav ul li a {
     color: var(--purple);
     font-weight: bold;
     font-size: 25px; 
@@ -173,16 +168,35 @@ h3 span {
     margin: 15px 0 0 0;
 }
 
-
-
 @media screen and (max-width: 1030px) {
-    .content-sections {
+    .content-sections,
+    nav,
+    header {
         flex-direction: column;
     }
+    .content-sections h2 {
+        width:90%; 
+    }
+    .about-me-paragraphs {
+        width: 90%;
+    }
+    .my-contact {
+        width: 90%;
+    }
+
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width: 850px) {
     .card {
-        width: 100%;
+        width: 90%;
+    }
+    .first-card {
+        width: 90%;
+    }
+    .left {
+        margin: 0;
+    }
+    .my-contact ul {
+        flex-direction: column;
     }
 }
