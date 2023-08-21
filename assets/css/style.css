@@ -1,7 +1,7 @@
 /* Using variables for colors that will be used throught the css */
 :root {
-    --dark-blue: #1f3669;
-    --purple: #c756c1;
+    --dark-blue: #2a3d66;
+    --purple: #9D65C9;
 }
 
 body {
@@ -99,7 +99,7 @@ nav a {
     position: relative;
 }
 
-/* Positioning and styling the h3 element relative to its parent */
+/* Positioning and styling the h element relative to its parent */
 h3 {
     font-size: 18px;
     position: absolute;
