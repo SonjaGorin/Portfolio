@@ -12,7 +12,7 @@ body {
 
 header {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
     padding: 1% 2%;
@@ -48,10 +48,6 @@ nav ul li a {
     font-weight: bold;
     font-size: 25px; 
 }
-
-/* main {
-    flex-wrap: wrap;
-} */
 
 .under-header {
     position: relative;
@@ -159,13 +155,13 @@ h3 span {
     font-size: 23px; 
 }
 
-.resume-paragraph {
+.resume-message {
     display: flex;
     width: 100%;
     margin: 0 0 30px 0;
 }
 
-.resume-paragraph p {
+.resume-message p {
     font-size: 16px;
     padding: 10px 0;
     background-color: var(--purple);
@@ -175,4 +171,18 @@ h3 span {
     justify-content: center;
     padding: 0 100px;
     margin: 15px 0 0 0;
+}
+
+
+
+@media screen and (max-width: 1030px) {
+    .content-sections {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .card {
+        width: 100%;
+    }
 }
