@@ -168,6 +168,19 @@ h3 span {
     margin: 15px 0 0 0;
 }
 
+.work-picture {
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+    
+.work-picture:hover {
+    -webkit-filter: brightness(150%);
+}
+
 @media screen and (max-width: 1030px) {
     .content-sections,
     nav,
@@ -183,7 +196,6 @@ h3 span {
     .my-contact {
         width: 90%;
     }
-
 }
 
 @media screen and (max-width: 850px) {
