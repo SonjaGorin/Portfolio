@@ -4,6 +4,10 @@
     --purple: #9D65C9;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial;
     display: flex;
