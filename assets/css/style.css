@@ -99,7 +99,9 @@ nav a {
     width: 100%;
 }
 
-.work-containers section {
+/* .work-containers section, */
+.first-card,
+.card {
     position: relative;
 }
 
